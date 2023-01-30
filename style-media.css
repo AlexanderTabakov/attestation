@@ -1,0 +1,181 @@
+@media (max-device-width: 992px) and (min-device-width: 541px) {
+
+    .main__content {
+        margin: 0;
+        /* padding-left: 45px; */
+        padding: 21px;
+        max-width: 620px;
+    }
+
+    .aside {
+        width:46%;
+    }
+
+    .card__photo > div {
+        font-weight: 400;
+        /* font-size: 36px; */
+        line-height: 42px;
+    }
+
+    .name {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .location {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .title {
+        font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    }
+
+    .socials-media {
+        margin: 20px 0 0 0;
+    }
+
+    .list, .contact-btn {
+        font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    }
+
+    .contact-btn, .stack-btn {
+        max-height: 46px;
+    }
+
+    .tech {
+
+        margin: 30px 0 0 0;
+    }
+
+    .description {
+    
+    margin: 30px 0 0 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-indent: 30px;
+    }
+
+    .form-contact {
+        margin: 20px 0 0 0;
+    }
+
+    .form__input {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    max-height: 48px;
+    
+    }
+
+
+}
+
+@media (max-device-width: 600px) {
+    .main {
+        flex-direction: column;
+        padding: 20px;
+        max-height: max-content;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+
+    .main__content {
+        margin: 0;
+        /* padding-left: 45px; */
+        padding: 21px;
+        max-width: 620px;
+        width: auto;
+    }
+
+    .aside {
+        width:100%;
+    }
+
+    .card__photo > div {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .name {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .location {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .title {
+        font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    }
+
+    .socials-media {
+        margin: 20px 0 0 0;
+    }
+
+    .list, .contact-btn {
+        font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    }
+
+    .contact-btn, .stack-btn {
+        max-height: 46px;
+    }
+
+    .tech {
+
+        margin: 30px 0 0 0;
+    }
+
+    .description {
+    
+    margin: 30px 0 0 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-indent: 30px;
+    }
+
+    .form-contact {
+        margin: 20px 0 0 0;
+    }
+
+    .form__input {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    max-height: 48px;
+    
+    }
+}
+
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src:local("Roboto"),
+    url("./assets/fonts/Roboto-Regular.ttf") format("ttf");
+    font-weight: 400;
+    
+}
+
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src:local("Roboto"),
+    url("./assets/fonts/Roboto-Regular.ttf") format("ttf");
+    font-weight: 500;
+    
+}
